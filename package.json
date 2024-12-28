@@ -1,0 +1,29 @@
+{
+  "name": "ju",
+  "version": "0.1.0",
+  "private": true,
+  "start": "next start",
+  "scripts": {
+    "clean": "rimraf .next dist build && mkdir build",
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^16.0.0",
+    "contentful": "^11.2.5",
+    "next": "15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "cross-env": "^7.0.3",
+    "postcss": "^8",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
